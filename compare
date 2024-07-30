@@ -1,0 +1,51 @@
+def simulate_game(deck, player_chips, bet):
+    game_log = []
+    player_hand = [deal_card(deck), deal_card(deck)]
+    dealer_hand = [deal_card(deck), deal_card(deck)]
+    game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'initial_deal'})
+    
+    while calculate_hand_value(player_hand) < 21:
+        action = get_strategy_action(player_hand, dealer_hand[0])
+        game_log.append({'player_hand': player_hand.copy(), 'dealer_hand': dealer_hand.copy(), 'action': action})
+        if action == 'H':
+            player_hand.append(deal_card(deck))
+        elif action == 'S':
+            break
+        elif action == 'D':
+            if player_chips >= bet * 2:
+                player_chips -= bet
+                bet *= 2
+                player_hand.append(deal_card(deck))
+            break
+        elif action == 'Y':
+            break
+        elif action == 'SUR':
+            break
+    
+    if calculate_hand_value(player_hand) > 21:
+        player_chips -= bet
+        game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'bust'})
+        return player_chips, game_log, 'loss'
+    
+    while calculate_hand_value(dealer_hand) < 17:
+        dealer_hand.append(deal_card(deck))
+    
+    game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'final_hands'})
+    player_value = calculate_hand_value(player_hand)
+    dealer_value = calculate_hand_value(dealer_hand)
+    
+    if dealer_value > 21:
+        player_chips += bet
+        game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'dealer_bust'})
+        return player_chips, game_log, 'win'
+    elif player_value > dealer_value:
+        player_chips += bet
+        game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'win'})
+        return player_chips, game_log, 'win'
+    elif player_value < dealer_value:
+        player_chips -= bet
+        game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'loss'})
+        return player_chips, game_log, 'loss'
+    else:
+        game_log.append({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'tie'})
+        return player_chips, game_log, 'tie'
