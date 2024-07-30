@@ -7,9 +7,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 from tqdm import tqdm
 
-num_games = 1000 # Number of games to simulate per decks in the shoe
-num_decks_list = [1, 2, 6, 7, 8] # Number of decks per shoe (Default: 1, 2, 6, 7, 8)
-num_threads = 1 # Default: =1 threading disabled, >1 threading enabled
+num_games = 10000  # Number of games to simulate per decks in the shoe
+num_decks_list = [1, 2, 6, 7, 8]  # Number of decks per shoe
+num_threads = 4  # Number of threads to use
 
 # Define the card values and suits
 card_values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace']
@@ -17,28 +17,12 @@ suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
 
 # Function to create a deck of cards
 def create_deck(num_decks):
-    """
-    Creates a deck of cards with the specified number of decks.
-    
-    Parameters:
-    num_decks (int): Number of decks to include in the deck.
-    
-    Returns:
-    list: A list of tuples representing the deck of cards.
-    """
+    """Creates a deck of cards with the specified number of decks."""
     return [(value, suit) for value in card_values for suit in suits] * num_decks
 
 # Function to calculate the value of a hand
 def calculate_hand_value(hand):
-    """
-    Calculates the total value of a hand, considering the special case of Aces.
-    
-    Parameters:
-    hand (list): A list of tuples representing the hand of cards.
-    
-    Returns:
-    int: The total value of the hand.
-    """
+    """Calculates the total value of a hand, considering the special case of Aces."""
     value = 0
     ace_count = 0
     for card, suit in hand:
@@ -57,31 +41,13 @@ def calculate_hand_value(hand):
     
     return value
 
-# Function to deal a card
 def deal_card(deck):
-    """
-    Deals a card from the deck.
-    
-    Parameters:
-    deck (list): The deck of cards.
-    
-    Returns:
-    tuple: A tuple representing the dealt card.
-    """
+    """Deals a card from the deck."""
     return deck.pop()
 
 # Function to determine the action based on the strategy chart
 def get_strategy_action(player_hand, dealer_upcard):
-    """
-    Determines the action to take based on the strategy chart.
-    
-    Parameters:
-    player_hand (list): The player's hand.
-    dealer_upcard (tuple): The dealer's upcard.
-    
-    Returns:
-    str: The action to take ('H', 'S', 'D', 'Y', 'SUR').
-    """
+    """Determines the action to take based on the strategy chart."""
     player_value = calculate_hand_value(player_hand)
     dealer_value = calculate_hand_value([dealer_upcard])
     
@@ -143,21 +109,8 @@ def get_strategy_action(player_hand, dealer_upcard):
     else:
         return 'H'
 
-# Function to simulate a single game of Blackjack
 def simulate_game(deck, player_chips, bet):
-    """
-    Simulates a single game of Blackjack and logs the decisions.
-    
-    Parameters:
-    deck (list): The deck of cards.
-    player_chips (int): The player's chips.
-    bet (int): The bet amount.
-    
-    Returns:
-    tuple: Updated player chips, game log, and result ('win', 'loss', 'tie').
-    """
-    
-    # Deal initial cards
+    """Simulates a single game of Blackjack and logs the result."""
     player_hand = [deal_card(deck), deal_card(deck)]
     dealer_hand = [deal_card(deck), deal_card(deck)]
     while calculate_hand_value(player_hand) < 21:
@@ -190,18 +143,14 @@ def simulate_game(deck, player_chips, bet):
     
     if dealer_value > 21:
         player_chips += bet
-        logging.info({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'dealer_bust'})
         return player_chips, 'win'
     elif player_value > dealer_value:
         player_chips += bet
-        logging.info({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'win'})
         return player_chips, 'win'
     elif player_value < dealer_value:
         player_chips -= bet
-        logging.info({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'loss'})
         return player_chips, 'loss'
     else:
-        logging.info({'player_hand': player_hand, 'dealer_hand': dealer_hand, 'action': 'tie'})
         return player_chips, 'tie'
 
 def simulate_games(num_games, num_decks):
@@ -213,11 +162,10 @@ def simulate_games(num_games, num_decks):
     num_decks (int): Number of decks to use in the simulation.
     
     Returns:
-    tuple: Results and logs of the simulations.
+    tuple: Results of the simulations.
     """
     initial_chips = 1000
     results = []
-    logs = []
     
     # Wrap the range with tqdm for progress bar
     for i in tqdm(range(num_games), desc="Simulating games"):
@@ -228,34 +176,25 @@ def simulate_games(num_games, num_decks):
         player_chips, result = simulate_game(deck, player_chips, bet)
         results.append(result)
     
-    return results, logs
+    return results
 
-def simulate_games_worker(num_games, num_decks, results, logs, thread_id):
+def simulate_games_worker(num_games, num_decks, results, thread_id):
     try:
         initial_chips = 1000
         local_results = []
-        
-        # Wrap the range with tqdm for progress bar
-        for i in tqdm(range(num_games), desc=f"Thread {thread_id}"):
-            deck = create_deck(num_decks)
-            random.shuffle(deck)
+        deck = create_deck(num_decks)
+        random.shuffle(deck)
+        for _ in tqdm(range(num_games), desc=f"Thread {thread_id}"):
             player_chips = initial_chips
             bet = 10
-            player_chips, result = simulate_game(deck, player_chips, bet)
+            player_chips, result = simulate_game(deck.copy(), player_chips, bet)
             local_results.append(result)
-        
         results.extend(local_results)
     except Exception as e:
         logging.error(f"Thread {thread_id} encountered an error: {e}")
-    
-def append_to_json_file(file_path, data):
-    """
-    Function to append results to a JSON file
 
-    Args:
-        file_path (string): path to json file
-        data (list): Shared list to store logs or results
-    """
+def append_to_json_file(file_path, data):
+    """Function to append results to a JSON file."""
     try:
         with open(file_path, 'r') as f:
             existing_data = json.load(f)
@@ -272,7 +211,7 @@ if __name__ == "__main__":
             print(f"Simulating {num_games} games with {num_decks} deck(s) using {num_threads} threads...")
             logging.info(f"Simulating {num_games} games with {num_decks} deck(s) using {num_threads} threads...")
         
-            # Shared lists to store results and logs
+            # Shared lists to store results
             results = []
             
             # Calculate the number of games each thread should simulate
@@ -280,14 +219,10 @@ if __name__ == "__main__":
             
             # Use ThreadPoolExecutor to manage threads
             with ThreadPoolExecutor(max_workers=num_threads) as executor:
-                futures = []
-                for thread_id in range(num_threads):
-                    futures.append(executor.submit(simulate_games_worker, games_per_thread, num_decks, results, logs, thread_id))
-                
-                # Wait for all threads to complete
+                futures = [executor.submit(simulate_games_worker, games_per_thread, num_decks, results, thread_id) for thread_id in range(num_threads)]
                 for future in as_completed(futures):
                     try:
-                        future.result()  # This will raise any exceptions caught in the worker
+                        future.result()
                     except Exception as e:
                         logging.error(f"Error in thread: {e}")
         else:
