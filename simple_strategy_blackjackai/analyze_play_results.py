@@ -1,4 +1,5 @@
 import json
+from play_blackjack import num_decks_list
 
 # Function to load simulation results
 def load_results(num_decks):
@@ -11,12 +12,12 @@ def load_results(num_decks):
     Returns:
     list: List of results from the simulation.
     """
-    with open(f'simulation_results_{num_decks}_decks.json', 'r') as f:
+    with open(f'./results/simulation_results_{num_decks}_decks.json', 'r') as f:
         results = json.load(f)
     return results
 
 # Function to analyze results
-def analyze_results(num_games, num_decks_list):
+def analyze_results(num_decks_list):
     """
     Analyzes the simulation results to calculate win, loss, and tie rates.
     
@@ -35,6 +36,7 @@ def analyze_results(num_games, num_decks_list):
         losses = results.count('loss')
         ties = results.count('tie')
         
+        num_games = wins + losses + ties
         win_rate = wins / num_games
         loss_rate = losses / num_games
         tie_rate = ties / num_games
@@ -43,6 +45,7 @@ def analyze_results(num_games, num_decks_list):
             'wins': wins,
             'losses': losses,
             'ties': ties,
+            'num_games': num_games,
             'win_rate': win_rate,
             'loss_rate': loss_rate,
             'tie_rate': tie_rate
@@ -52,18 +55,15 @@ def analyze_results(num_games, num_decks_list):
 
 # Main function to run the analysis
 if __name__ == "__main__":
-    num_games = 10000
-    num_decks_list = [1, 2, 4, 6, 8]
-    
-    analysis = analyze_results(num_games, num_decks_list)
+    analysis = analyze_results(num_decks_list)
     
     # Save analysis results to JSON file
-    with open('analysis_results.json', 'w') as f:
+    with open('./results/play_analysis_results.json', 'w') as f:
         json.dump(analysis, f, indent=4)
     
     # Print analysis results
     for num_decks, stats in analysis.items():
-        print(f"Decks: {num_decks}")
+        print(f"{stats['num_games']} games played with {num_decks} decks")
         print(f"  Wins: {stats['wins']} ({stats['win_rate']*100:.2f}%)")
         print(f"  Losses: {stats['losses']} ({stats['loss_rate']*100:.2f}%)")
         print(f"  Ties: {stats['ties']} ({stats['tie_rate']*100:.2f}%)")

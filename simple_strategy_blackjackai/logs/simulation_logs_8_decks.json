@@ -1,0 +1,4481 @@
+[
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ]
+            ],
+            "action": "bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "action": "bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "action": "D"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "action": "bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "S"
+        },
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "initial_deal"
+        },
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ]
+            ],
+            "action": "H"
+        },
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ]
+            ],
+            "action": "D"
+        },
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "final_hands"
+        },
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Diamonds"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Diamonds"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "7",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Diamonds"
+                ],
+                [
+                    "Ace",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Diamonds"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Hearts"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "8",
+                    "Hearts"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Diamonds"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "10",
+                    "Diamonds"
+                ],
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Diamonds"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "Ace",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Hearts"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "10",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Diamonds"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "7",
+                    "Hearts"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Spades"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ],
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "5",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Hearts"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Diamonds"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "Jack",
+                    "Diamonds"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "7",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "8",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "7",
+                    "Clubs"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Spades"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Diamonds"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Clubs"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Diamonds"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "4",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Hearts"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "8",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Diamonds"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "8",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Diamonds"
+                ],
+                [
+                    "2",
+                    "Diamonds"
+                ],
+                [
+                    "3",
+                    "Diamonds"
+                ],
+                [
+                    "8",
+                    "Diamonds"
+                ],
+                [
+                    "5",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Clubs"
+                ],
+                [
+                    "Queen",
+                    "Hearts"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Hearts"
+                ],
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "9",
+                    "Diamonds"
+                ],
+                [
+                    "Queen",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "7",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "9",
+                    "Clubs"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "8",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Clubs"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Spades"
+                ],
+                [
+                    "4",
+                    "Diamonds"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Spades"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "5",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Hearts"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "10",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Clubs"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [],
+    [],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "9",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "7",
+                    "Diamonds"
+                ],
+                [
+                    "7",
+                    "Clubs"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "Ace",
+                    "Hearts"
+                ],
+                [
+                    "8",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "9",
+                    "Hearts"
+                ],
+                [
+                    "4",
+                    "Spades"
+                ],
+                [
+                    "9",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Jack",
+                    "Spades"
+                ],
+                [
+                    "5",
+                    "Spades"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Spades"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "4",
+                    "Clubs"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Diamonds"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Jack",
+                    "Hearts"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "Queen",
+                    "Diamonds"
+                ],
+                [
+                    "King",
+                    "Spades"
+                ]
+            ],
+            "action": "tie"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "3",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ],
+                [
+                    "2",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "King",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Diamonds"
+                ]
+            ],
+            "action": "loss"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Diamonds"
+                ],
+                [
+                    "3",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "6",
+                    "Hearts"
+                ],
+                [
+                    "3",
+                    "Hearts"
+                ],
+                [
+                    "Jack",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "Queen",
+                    "Spades"
+                ],
+                [
+                    "King",
+                    "Clubs"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "3",
+                    "Spades"
+                ],
+                [
+                    "Ace",
+                    "Clubs"
+                ],
+                [
+                    "3",
+                    "Hearts"
+                ]
+            ],
+            "action": "win"
+        }
+    ],
+    [
+        {
+            "player_hand": [
+                [
+                    "King",
+                    "Spades"
+                ],
+                [
+                    "2",
+                    "Hearts"
+                ]
+            ],
+            "dealer_hand": [
+                [
+                    "5",
+                    "Diamonds"
+                ],
+                [
+                    "9",
+                    "Diamonds"
+                ],
+                [
+                    "10",
+                    "Hearts"
+                ]
+            ],
+            "action": "dealer_bust"
+        }
+    ]
+]
